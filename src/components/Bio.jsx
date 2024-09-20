@@ -12,23 +12,23 @@ const Bio = () => {
         </motion.h2>
             <div>
                 {BIO.map((bio,index) => (
-                    <div className='lg:px-20 lg:mx-20'>
-                        <motion.p key={index} whileInView={{opacity:1,x:0}}
+                    <div className='lg:px-20 lg:mx-20' key={index}>
+                        <motion.p whileInView={{opacity:1,x:0}}
                     initial={{ x: -100, opacity: 0 }}
                     transition={{ duration: 1 }} className=' py-6 text-xl tracking-tighter leading-relaxed'>
                         {bio.bio1}
                     </motion.p>
-                        <motion.p key={index} whileInView={{opacity:1,x:0}}
+                        <motion.p whileInView={{opacity:1,x:0}}
                     initial={{ x: -100, opacity: 0 }}
                     transition={{ duration: 1 }} className=' py-6 text-xl tracking-tighter leading-relaxed'>
                         {bio.bio2}
                     </motion.p>
-                        <motion.p key={index} whileInView={{opacity:1,x:0}}
+                        <motion.p whileInView={{opacity:1,x:0}}
                     initial={{ x: -100, opacity: 0 }}
                     transition={{ duration: 1 }} className=' py-6 text-xl tracking-tighter leading-relaxed'>
                         {bio.bio3}
                     </motion.p>
-                        <motion.p key={index} whileInView={{opacity:1,x:0}}
+                        <motion.p whileInView={{opacity:1,x:0}}
                     initial={{ x: -100, opacity: 0 }}
                     transition={{ duration: 1 }} className=' py-6 text-xl tracking-tighter leading-relaxed'>
                         {bio.bio4}
