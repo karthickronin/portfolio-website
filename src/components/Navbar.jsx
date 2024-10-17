@@ -39,8 +39,8 @@ const Navbar = () => {
       x: 0,
       transition: { 
         type: 'spring',
-        mass: 0.3,
-        damping: 10,
+        mass: 1,
+        damping: 15,
         staggerChildren: 0.2,
         when: "beforeChildren",
       }
@@ -80,10 +80,7 @@ const Navbar = () => {
     // </nav>
     <div>
       <motion.nav 
-      variants={containerVariants}
-      initial="hidden"
-      animate="visible"
-      exit="exit"
+     
       className="fixed left-0 right-0 lg:top-4 z-50 ">
         {/* desktopmenu */}
         <div className="mx-auto hidden max-w-3xl items-center justify-center rounded-lg border border-stone-50/30 bg-black/20 py-3 backdrop-blur-lg lg:flex">
@@ -192,8 +189,6 @@ const Navbar = () => {
         </motion.div>
           )}
         </div>
-
-        
       </motion.nav>
     </div>
   );
