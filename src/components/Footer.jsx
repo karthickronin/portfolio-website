@@ -1,7 +1,5 @@
-import React from "react";
-import { FaInstagram, FaLinkedin, FaTimes } from "react-icons/fa";
-import logo from "../assets/raviKumarLogo.webp";
-import { FaBars, FaGithub, FaTwitter } from "react-icons/fa6";
+import { FaInstagram, FaLinkedin,  } from "react-icons/fa";
+import {  FaGithub, FaTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   return (

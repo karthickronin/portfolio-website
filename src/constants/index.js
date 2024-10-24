@@ -25,18 +25,18 @@ export const BIO = [
 
 export const EDUCATION = [
   {
-    degree: "Master of Science in Computer Science",
-    institution: "Stanford University",
-    duration: "September 2012 - June 2014",
+    degree: "Master of Business and Administration",
+    institution: "SRM IST, Chennai",
+    duration: "September 2024 - June 2026",
     description:
       "Specialized in Human-Computer Interaction and Software Engineering. Completed a thesis on enhancing user experience in web applications through advanced interactive techniques. Participated in various projects involving frontend development, algorithms, and data structures. Graduated with honors.",
   },
   {
-    degree: "Bachelor of Science in Information Technology",
-    institution: "University of California, Berkeley",
-    duration: "September 2008 - June 2012",
+    degree: "Bachelor of Technology in Information Technology",
+    institution: "St. Joseph College of Engineering, Chennai",
+    duration: "September 2020 - June 2024",
     description:
-      "Focused on web development, programming languages, and database management. Actively involved in coding clubs and hackathons, where I developed several web applications using HTML, CSS, JavaScript, and PHP. Completed a senior project on developing an e-commerce platform. Graduated with a high GPA.",
+      "Focused on web development, programming languages, and database management. Actively involved in coding clubs and hackathons, where I developed several web applications using HTML, CSS, JavaScript, React and Java. Completed a senior project on developing a Cloud App for Pnemonia Detection With Given X-Ray Images in Deep Learning. Graduated with a high GPA 7.88.",
   }]
 
 export const PROJECTS = [

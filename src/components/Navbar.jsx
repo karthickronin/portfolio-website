@@ -1,5 +1,5 @@
 import { FaInstagram, FaLinkedin, FaTimes } from "react-icons/fa";
-import logo from "../assets/raviKumarLogo.webp";
+import logo from "../assets/karthick.webp";
 import { FaBars, FaGithub, FaTwitter } from "react-icons/fa6";
 import { useState } from "react";
 import { NAVIGATION_LINKS } from "../constants";
@@ -47,14 +47,14 @@ const Navbar = () => {
     },
   };
   
-  const childVariants = {
-    hidden: {
-      opacity: 0,
-    },
-    visible: {
-      opacity: 1,
-    }
-  }
+  // const childVariants = {
+  //   hidden: {
+  //     opacity: 0,
+  //   },
+  //   visible: {
+  //     opacity: 1,
+  //   }
+  // }
   return (
     // <nav className="flex items-center justify-between py-6">
       // <div className="flex flex-shrink-0 items-center">

@@ -1,4 +1,4 @@
-import profilePic from "../assets/raviKumarProfile.webp";
+import profilePic from "../assets/karthickProfile.jpg";
 import { HERO_CONTENT } from "../constants";
 import { motion } from "framer-motion";
 
@@ -54,7 +54,7 @@ const Hero = () => {
             </motion.p>
             <motion.a
               variants={childVariants}
-              href="/resume.pdf"
+              href="src/public/Karthick_profile_mern.pdf"
               download
               className="bg-white text-stone-800 mb-10 text-sm p-4 rounded-full hover:bg-stone-700 hover:text-stone-100"
             >
