@@ -1,10 +1,9 @@
-import React from 'react'
 import { BIO } from '../constants'
 import { motion } from 'framer-motion'
 
 const Bio = () => {
   return (
-    <section className='flex flex-col justify-center items-center gap-12 pt-20 pb-24' id='bio'>
+    <section className='flex flex-col justify-center items-center text-center gap-12 pt-20 pb-24' id='bio'>
         <motion.h2 whileInView={{opacity:1,y:0}}
         initial={{ y: -100, opacity: 0 }}
         transition={{ duration: 0.5 }} className='text-center text-4xl'>

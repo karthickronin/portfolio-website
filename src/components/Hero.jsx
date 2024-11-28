@@ -32,7 +32,7 @@ const Hero = () => {
             <motion.img
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
-              transition={{ duration: 1, delay: 1.5 }}
+              transition={{ duration: 0.5, delay: 1 }}
               width={550}
               height={550}
               src={profilePic}
@@ -42,11 +42,11 @@ const Hero = () => {
           </div>
         </div>
         <div className="w-full lg:w-1/2 lg:pl-20">
-          <motion.div initial="hidden" animate="visible" variants={containerVariants} className="flex flex-col items-center lg:items-start mt-10">
-            <motion.h2 variants={childVariants} className="pb-2 text-4xl tracking-tighter lg:text-8xl">
+          <motion.div initial="hidden" animate="visible" variants={containerVariants} className="flex  flex-col items-center lg:items-start mt-10">
+            <motion.h2 variants={childVariants} className="pb-2 text-4xl tracking-tighter lg:text-6xl">
               KARTHICK S
             </motion.h2>
-            <motion.span variants={childVariants} className="bg-gradient-to-r from-slate-300 to-stone-600 bg-clip-text text-3xl tracking-tight text-transparent">
+            <motion.span variants={childVariants} className="text-stone-100 text-2xl tracking-tight">
               Full Stack Developer
             </motion.span>
             <motion.p variants={childVariants} className="my-2 max-w-lg py-6 text-xl tracking-tighter leading-relaxed">

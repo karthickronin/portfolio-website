@@ -1,7 +1,7 @@
 import project1 from "../assets/projects/twitter-logo.jpg";
 import project2 from "../assets/projects/task-logo.png";
-import project3 from "../assets/projects/project-3.webp";
-import project4 from "../assets/projects/project-4.webp";
+import project3 from "../assets/projects/professional-portfolio.png";
+import project4 from "../assets/projects/blog-logo.png";
 
 export const NAVIGATION_LINKS = [
   { label: "Skills", href: "#skills" },
@@ -17,7 +17,7 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const BIO = [
   {
-    bio1:"Karthick, Recent B. Tech Graduate in Information Technology",
+    bio1:"Karthick S, Recent B. Tech Graduate in Information Technology",
     bio2:"He is a motivated and detail-oriented web developer with a Bachelor of Technology in Information Technology from St. Joseph College of Engineering. Proficient in modern web technologies including ReactJS, NodeJS, NextJS, MongoDB, PostgreSQL, and TailwindCSS, he has a strong foundation in both front-end and back-end development",
     bio3:"Karthick specializes in creating responsive and engaging user experiences, leveraging tools like Framer Motion for seamless animations.In addition to his technical skills, Karthick has completed various projects, including an Employee Payment Management System, a News Media Website, and a Cloud App for Pneumonia Detection using deep learning. His diverse skill set is complemented by certifications from Udemy and IIT Bombay, reflecting his commitment to continuous learning and professional development",
     bio4:"Karthick is currently seeking opportunities to contribute his expertise and passion for technology to innovative projects"}
