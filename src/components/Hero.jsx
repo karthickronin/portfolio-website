@@ -54,7 +54,7 @@ const Hero = () => {
             </motion.p>
             <motion.a
               variants={childVariants}
-              href="src/public/Karthick_profile_mern.pdf"
+              href="src/public/Karthick_profile.pdf"
               download
               className="bg-white text-stone-800 mb-10 text-sm p-4 rounded-full hover:bg-stone-700 hover:text-stone-100"
             >
