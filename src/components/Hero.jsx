@@ -1,4 +1,4 @@
-import profilePic from "../assets/karthickProfile.jpg";
+import profilePic from "../assets/karthee.jpg";
 import { HERO_CONTENT } from "../constants";
 import { motion } from "framer-motion";
 
